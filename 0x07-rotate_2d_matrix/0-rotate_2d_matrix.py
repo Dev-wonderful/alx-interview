@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 """Rotate a 2d matrix in-place"""
-from typing import List
 
 
-def rotate_2d_matrix(matrix: List[List]):
+def rotate_2d_matrix(matrix: list):
     """Rotate 2d matric in-place"""
     rotate = {}
     length = len(matrix)
